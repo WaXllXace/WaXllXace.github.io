@@ -147,7 +147,6 @@ canvas {
   position: relative;
   background-size: cover;
   background: url("../images/particle-bg.jpg");
-  opacity: 0.6;
 }
 
 .image-bg{
