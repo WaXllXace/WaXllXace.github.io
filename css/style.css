@@ -145,7 +145,7 @@ canvas {
 
 .particle-bg{
   position: relative;
-  background-size: cover;
+  background-size: contain;
   background: url("../images/particle-bg.jpg");
 }
 
