@@ -206,45 +206,45 @@
 
 
         var skill = jQuery('.projects');
-        var prog80 = $('.prog-80');
-        var prog90 = $('.prog-90');
-        var prog86 = $('.prog-86');
-        var prog94 = $('.prog-94');
+        var prog75 = $('.prog-75');
+        var prog95 = $('.prog-95');
+        var prog40 = $('.prog-40');
+        var prog50 = $('.prog-50');
         skill.waypoint(function() {
 
-            prog80.css({
-                "width": "80%",
+            prog75.css({
+                "width": "75%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '80%'
+            offset: '75%'
         });
         skill.waypoint(function() {
 
-            prog90.css({
-                "width": "90%",
+            prog95.css({
+                "width": "95%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '90%'
+            offset: '95%'
         });
         skill.waypoint(function() {
 
-            prog86.css({
-                "width": "86%",
+            prog40.css({
+                "width": "40%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '86%'
+            offset: '40%'
         });
         skill.waypoint(function() {
 
-            prog94.css({
-                "width": "94%",
+            prog50.css({
+                "width": "50%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '94%'
+            offset: '50%'
         });
 
 
