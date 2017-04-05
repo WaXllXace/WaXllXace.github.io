@@ -11,13 +11,14 @@
 * 2.header
 * 3.about
 * 4.skills
-* 5.services
-* 6.portfolio
-* 7.experience
-* 8.testimonial
-* 9.blog
-* 10.contact
-* 11.footer
+* 5.projects
+* 6.services
+* 7.portfolio
+* 8.experience
+* 9.testimonial
+* 10.blog
+* 11.contact
+* 12.footer
 *----------------------------------
 */
 
@@ -304,37 +305,90 @@ canvas {
 }
 
 
-/*----------------skills section--------------------*/
+/*-----------------skills section-----------------*/
 
 .skills {
-  background: url("../images/skill-bg.jpg");
+  background-color: rgba(234, 234, 234, 0.9);
+  text-align: center;
+}
+
+.skills .skills-header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills .skills-content {
+  padding: 0 20px;
+}
+
+.skills .skills-content span i {
+  font-size: 22px;
+  color: #164E71;
+  border: 1px solid #164e71;
+  padding: 16px;
+  border-radius: 31px;
+}
+
+.skills .skills-content .content-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.skill-item {
+  background: #f9f9f9;
+  padding: 56px 28px;
+  margin-top: 28px;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 10px #EDEDED;
+}
+
+.skill-item:hover {
+  box-shadow: 0px 0px 10px #bcbcbc;
+}
+
+.skill-item:hover span i {
+  color: #fff;
+  background: #164E71;
+  transition: all 0.5s;
+}
+
+
+/*----------------projects section--------------------*/
+
+.projects {
+  background: url("../images/project-bg.jpg");
   background-size: cover;
 }
 
-.skill-container {
+.project-container {
   position: relative;
 }
 
-.skill-heading-area {
+.project-heading-area {
   margin-top: 92px;
 }
 
-.skill-heading-area h6,
-.skill-heading-area h4,
-.skill-heading-area p {
+.project-heading-area h6,
+.project-heading-area h4,
+.project-heading-area p {
   color: #fff;
 }
 
-.skill-heading-area .skill-btn {
+.project-heading-area .project-btn {
   margin-top: 35px;
 }
 
-.skill-heading-area h4 {
+.project-heading-area h4 {
   padding-top: 30px;
   padding-bottom: 20px;
 }
 
-.skill-overlay {
+.project-overlay {
   position: absolute;
   right: 0;
   width: 50%;
@@ -342,7 +396,7 @@ canvas {
   background: rgb(249, 249, 249);
 }
 
-.skills-content .progressbar-area p {
+.projects-content .progressbar-area p {
   margin-bottom: 21px;
   font-weight: 500;
   color: #6E6E6E;
@@ -354,7 +408,7 @@ canvas {
   margin-top: 30px;
 }
 
-.skills .progress-bar {
+.projects .progress-bar {
   background-color: #164E71;
   ;
   position: relative;
@@ -373,12 +427,12 @@ canvas {
   border-bottom-left-radius: 4px;
 }
 
-.skill-category {
+.project-category {
   max-width: 80%;
   margin: 0 auto;
 }
 
-.skills .progress {
+.projects .progress {
   overflow: visible;
   height: 6px;
   margin-top: 10px;
@@ -392,11 +446,11 @@ canvas {
   border-radius: 5px;
 }
 
-.skills .progressbar-area p {
+.projects .progressbar-area p {
   margin-bottom: 28px;
 }
 
-.skills .progress-bar span {
+.projects .progress-bar span {
   position: absolute;
   top: -28px;
   right: -6px;
@@ -413,7 +467,7 @@ canvas {
   width: 36px;
 }
 
-.skills .progress-bar > span::before {
+.projects .progress-bar > span::before {
   position: absolute;
   bottom: -4px;
   left: 12px;
