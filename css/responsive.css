@@ -6,8 +6,8 @@
 */
 
 @media screen and (max-width: 1920px) {
-  /*-------------------skills---------------*/
-  .skill-overlay {
+  /*-------------------projects---------------*/
+  .project-overlay {
     position: absolute;
     top: 0;
     width: 50%;
@@ -83,8 +83,8 @@
   .about-img:hover .about-img-overlay {
     bottom: 30px;
   }
-  /*----------skills-----------*/
-  .skill-overlay {
+  /*----------projects-----------*/
+  .project-overlay {
     position: absolute;
     top: 535px;
     width: 100%;
@@ -100,7 +100,7 @@
     margin-top: 16px;
     margin-right: 30px;
   }
-  .skill-heading-area {
+  .project-heading-area {
     margin-top: 30px;
   }
   /*------------experience---------------*/
@@ -151,8 +151,8 @@
   .element {
     font-size: 45px;
   }
-  /*----------------skills---------------*/
-  .skill-overlay {
+  /*----------------projects---------------*/
+  .project-overlay {
     top: 542px;
   }
   /*-------------contact-form-------*/
@@ -165,8 +165,8 @@
 }
 
 @media screen and (max-width:480px) {
-  /*----------------skills---------------*/
-  .skill-overlay {
+  /*----------------projects---------------*/
+  .project-overlay {
     top: 575px;
   }
   /*---------------portfolio--------------*/
@@ -190,8 +190,8 @@
 }
 
 @media screen and (max-width:320px) {
-  /*----------------skills---------------*/
-  .skill-overlay {
+  /*----------------projects---------------*/
+  .project-overlay {
     top: 588px;
   }
   /*----------------testimonial-----------*/
