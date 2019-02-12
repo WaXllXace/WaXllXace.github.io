@@ -1,0 +1,241 @@
+body *{
+	color: #D1E8E2;
+}
+
+body{
+	margin: 0px;
+}
+
+.logo{
+	max-width: 360px;
+	height: 100%;
+	align-self: auto;
+	justify-self: flex-start;
+	margin-right: auto;
+}
+
+.logo *{
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.logo-img{
+	min-width: 150px;
+	height: 100%;
+	margin: auto 20px;
+	background: url("img/insurgo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.logo-txt{
+	text-decoration: underline;
+	padding-left: 35px;
+}
+
+#header{
+	height: 56px;
+	width: 100%;
+	align-items: center;
+	position: fixed;
+    top: 0;
+    left: 0;
+	background-color: #116466CC;
+}
+
+#header ul{
+	list-style-type: none;
+	height: 100%;
+}
+
+#header li{
+	float: left;
+	height: 100%;
+}
+
+#header a{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+
+#home{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#banner{
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/bg-holder.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#about_me{
+	height: auto;
+}
+
+#self_intro{
+	max-width: 1024px;
+	margin-bottom: 15px;
+}
+
+#self_intro > *{
+	padding: 0px 20px;
+}
+
+#self_intro > div.img-container{
+	width: 35%;
+}
+
+.img-container > img{
+	width: 100%;
+	margin: auto 0px;
+}
+
+#self_intro > div{
+	height: auto;
+	width: 65%;
+}
+
+#self_intro > div > span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 28px;
+	font-size: 20px;
+	padding-bottom: 12px;
+}
+
+#skill_list{
+	justify-content: space-around;
+}
+
+#skill_list li{
+	width: auto;
+	padding: 5px;
+	list-style-type: none;
+	display: inline-block;
+	transition: all 0.4s;
+}
+
+#skill_list img{
+	height: 40px;
+	width: auto;
+}
+
+/* some more commonly used */
+h2.enlarger{
+	font-size: 3em;
+}
+/* below are class templates */
+.enlarger{
+	color: #FFCB9A;
+}
+.button{
+	position: relative;
+	background-color: #D1E8E219;
+	border-radius: 5px;
+	padding: 10px 25px;
+	margin: 5px;
+	margin-top: 10px;
+	-webkit-transition: padding 0.3s, margin 0.3s, background-color 0.2s;
+	transition: padding 0.3s, margin 0.3s, background-color 0.2s;
+}
+.button *{
+	font-size: 1.5em;
+}
+.button:hover{
+	padding: 15px 30px;
+	margin-top: 5px;
+	background-color: #D1E8E24C;
+}
+.button:before {
+	display: block;
+	content: "";
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	border-top: 1px solid #D1E8E2;
+	border-left: 1px solid #D1E8E2;
+}
+.button:after{
+	display: block;
+	content: "";
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	border-top: 1px solid #D1E8E2;
+	border-right: 1px solid #D1E8E2;
+}
+.button > span:before {
+    display: block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 1px solid #D1E8E2;
+    border-left: 1px solid #D1E8E2;
+}
+.button > span:after {
+    display: block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 1px solid #D1E8E2;
+    border-right: 1px solid #D1E8E2;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-start{
+	justify-content: flex-start;
+}
+.align-start {
+	align-items: start;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.bg-cover{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bg-gray{
+	background-color: #2C3531;
+}

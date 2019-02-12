@@ -1,14 +1,82 @@
 <!DOCTYPE html>
-<html class="gr__waxllxace_github_io">
+<html lang="en" class="gr__waxllxace_github_io">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Wallace Hsieh - Personal Website</title>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="images/favicon.ico" sizes="16x16 32x32 48x48 64x64 128x128" type="images/vnd.microsoft.icon" />
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
-        <div>
-            <p>Hello world!</p>
-        </div>
-    </body>
+    <body class="bg-gray">
+		<header>
+			<div id="header" class="flex-row justify-end">
+				<div class="logo flex-row">
+					<!-- <div class="logo-img"></div> -->
+					<div class="logo-txt flex-row">Wallace Hsieh</div>
+				</div>
+				<ul>
+					<li>
+						<a href="#" onclick="m_scroll(home);"><div>Home</div></a>
+					</li>
+					<li>
+						<a href="#" onclick="m_scroll(about_me);"><div>About me</div></a>
+					</li>
+					<li>
+						<a href="#" onclick="m_scroll(experiences);"><div>Experiences</div></a>
+					</li>
+					<li>
+						<a href="#" onclick="m_scroll(projects);"><div>Projects</div></a>
+					</li>
+					<li>
+						<a href="#"><div>Dev</div></a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div id="home">
+			<div id="banner"></div>
+			<div>
+				<h1>Hi there! I am Wallace ;)</h1>
+				<div style="background-color: #D1E8E2; height: 5px; width: 100%;"></div>
+				<h4>Front-end Web Develop · Android Applications</h4>
+			</div>
+		</div>
+		<div id="about_me" class="flex-col">
+			<h2 class="enlarger">< About Me ></h2>
+			<div id="self_intro" class="flex-row justify-center">
+				<div class="img-container"><img src="images/ProfilePicM.png"/></div>
+				<div class="txt-list-container flex-col align-start">
+					<span>· I was born and raised in Taipei, Taiwan</span>
+					<span>· I graduated from The Affiliated High School of National Taiwan Normal University (HSNU)</span>
+					<span>· I am currently in my 4th year of Computer Science major in The University of Hong Kong (HKU)</span>
+					<span>· My coding journey began in middle school when I was trying to install mods for minecraft</span>
+					<span>· I am dedicated towards visual effects and expressions, which sparked my interest in UI/UX and Website creations</span>
+					<span>· I am a game lover AND a self-motivated game creator</span>
+					<span>· Musics, Games, Coffee, and Traveling–these are the 4 elements that make my day!</span>
+				</div>
+			</div>
+			<a class="button" href="files/Wallace_resume.pdf"><span>Download my CV</span></a>
+		</div>
+		<!-- seeklogo asdfghj@genny.com account:asdfghjenny pw:jennyisjenny -->
+		<div id="skills" class="flex-col">
+			<h2 class="enlarger">< My skills ></h2>
+			<ul id="skill_list">
+				<li><a href="#"><img src="images/html5.svg"></a></li>
+				<li><a href="#"><img src="images/css3.svg"></a></li>
+				<li><a href="#"><img src="images/javascript.svg"></a></li>
+				<li><a href="#"><img src="images/meteor.svg"></a></li>
+				<li><a href="#"><img src="images/angular.svg"></a></li>
+				<li><a href="#"><img src="images/ionic.svg"></a></li>
+				<li><a href="#"><img src="images/nodejs.svg"></a></li>
+				<li><a href="#"><img src="images/python.svg"></a></li>
+				<li><a href="#"><img src="images/unity.svg"></a></li>
+				<li><a href="#"><img src="images/CSharpLogo.png"></a></li>
+				<li><a href="#"><img src="images/Android_Studio_icon.svg"></a></li>
+				<li><a href="#"><img src="images/java.svg"></a></li>
+			</ul>
+		</div>
+	</body>
 </html>
